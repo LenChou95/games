@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="cn" >
+<head>
+  <meta charset="UTF-8">
+  <title>2048 - 在线小游戏</title>
+  <link rel="stylesheet" href="https://cdn.zlbk.net/game/2048/style.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-28119108-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-28119108-4');
+</script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="heading">
+    <h1 class="title">2048</h1>
+    <div class="score-container">0</div>
+  </div>
+  <p class="game-intro">开始游戏，达到 <strong>2048 分值</strong></p>
+
+  <div class="game-container">
+    <div class="game-message">
+      <p></p>
+      <div class="lower">
+        <a class="retry-button">再来一次</a>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+      </div>
+    </div>
+
+    <div class="tile-container">
+
+    </div>
+  </div>
+
+  <p class="game-explanation">
+    <strong class="important">玩法说明:</strong> 使用<strong>键盘方向键或手指移动</strong>控制方块移动，当两块方块数值一样时他们会 <strong>合并成一块。</strong>
+  </p>
+  <hr>
+  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.6/hammer.min.js'></script>
+  <script  src="https://cdn.zlbk.net/game/2048/script.js"></script>
+
+</body>
+</html>
