@@ -1,0 +1,144 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>在线小游戏</title>
+  <meta content="2048、贪吃蛇、古墓丽影等最新在线小游戏" name="description">
+  <meta content="小游戏,在线小游戏,双人小游戏,小游戏大全,双人小游戏大全" name="keywords">
+  <meta name="theme-color" content="#252628">
+  
+  <style>
+    html,body {
+      margin: 0;
+    }
+    body {
+      padding: 20px;
+      background-color: #f1f1fa;
+      font-family: sans-serif;
+    }
+    h1 {
+      font-size: 72px;
+      /* background-image: url(assets/images/boring.studio.svg); */
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: 50% 50%;
+      /* color: transparent; */
+
+    }
+    h1 sup {
+      display: none;
+    }
+    section {
+      max-width: 1920px;
+      margin: 0 auto;
+    }
+    h2 {
+      display: none;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 15px;
+    }
+    a,a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h3 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    p {color: #878b99;margin: 10px 0 0;font-weight: 300;}
+    a {
+      display: block;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+    a:hover {
+      background-color: #fafafe;
+    }
+    small {
+      margin-left: 5px;
+      font-size: 14px;
+      color: #98989a;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #a8a8aa;
+    }
+    @media screen and (max-width: 1080px) {
+      ul {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media screen and (orientation: portrait) and (max-width: 720px) {
+      h1 {
+        font-size: 48px;
+      }
+      img {
+        max-width: 100%;
+        width: 350;
+        height: auto;
+      }
+      ul {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #191919;
+      }
+      h3 {color: #d3d3d3;}
+      a {
+        background-color: #232323;
+      }
+      a:hover {
+        background-color: #38383a
+      }
+      footer {
+        color: #38383a;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>在线小游戏<sup>Online mini-Games</sup></h1>
+  <section>
+
+    <ul>
+      <li><a href="https://game.imzl.com/2048/" target="_blank">
+        <h3>2048</h3>
+        <p>在线 2048 小游戏，电脑手机都可正常娱乐</p>
+      </a></li>
+
+      <li><a href="https://game.imzl.com/balls/" target="_blank">
+        <h3>地下冒险<small></small></h3>
+        <p>操控小圆球完成底下冒险。</p>
+      </a></li>
+      
+      <li><a href="https://game.imzl.com/snake/" target="_blank">
+        <h3>贪吃蛇<small>checklist.love</small></h3>
+        <p>经典在线小游戏，比比谁的蛇最能吃。</p>
+      </a></li>
+      
+
+    </ul>
+  </section>
+  <footer>&copy; 2021 game.imzl.com</footer>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-28119108-4');
+  </script>
+</body>
+</html>
